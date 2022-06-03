@@ -12,12 +12,12 @@ const firebaseConfig = {
 
 const firebaseApp = initializeApp(firebaseConfig);
 //firebase.initializeApp(firebaseConfig);
-const storage = getStorage(firebaseApp);
+//const storage = getStorage(firebaseApp);
+var storage = firebase.storage()
 
-const listRef = ref(storage, 'marker');
-//var markers = firebase.storage().ref("marker")
+//const listRef = ref(storage, 'marker');
 //var objects = firebase.storage().ref("obj")
-console.log(listRef)
+console.log(storage)
 //listAll("https://firebasestorage.googleapis.com/v0/b/arforeveryone-prod.appspot.com/o/")
 
 

@@ -13,6 +13,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 //const storage = getStorage(firebaseApp);
 var storageRef = firebase.storage().ref()
+storageRef.listAll()
 
 //var objects = firebase.storage().ref("obj")
 console.log(storageRef)

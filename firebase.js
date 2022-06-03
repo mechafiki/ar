@@ -11,8 +11,9 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var markers = firebase.storage().ref("marker").listAll()
+var markers = firebase.storage().ref("marker")
 var objects = firebase.storage().ref("obj")
 console.log(objects)
+listAll(markers)
 
 

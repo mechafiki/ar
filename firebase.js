@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
-import { ref, listAll } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+import { getStorage, ref, listAll } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
 const firebaseConfig = {
     apiKey: "AIzaSyCKzttvmlJzoWzncHfNs4TTKs4dyEnzfn4",
     authDomain: "arforeveryone-prod.firebaseapp.com",
